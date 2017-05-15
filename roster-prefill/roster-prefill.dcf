@@ -1,0 +1,76 @@
+﻿[Dictionary]
+Version=CSPro 7.0
+Label=roster-prefill
+Name=ROSTER_PREFILL_DICT
+RecordTypeStart=1
+RecordTypeLen=1
+Positions=Relative
+ZeroFill=Yes
+DecimalChar=Yes
+
+[Level]
+Label=roster-prefill questionnaire
+Name=ROSTER_PREFILL_QUEST
+
+[IdItems]
+
+[Item]
+Label=ID
+Name=ID
+Start=2
+Len=1
+ZeroFill=Yes
+
+[Record]
+Label=Household members
+Name=HOUSEHOLD_MEMBERS
+RecordTypeValue='H'
+MaxRecords=30
+RecordLen=24
+
+[Item]
+Label=Name
+Name=NAME
+Start=3
+Len=20
+DataType=Alpha
+
+[Item]
+Label=Sex
+Name=SEX
+Start=23
+Len=1
+ZeroFill=Yes
+
+[ValueSet]
+Label=Sex
+Name=SEX_VS1
+Value=1;Male
+Value=2;Female
+
+[Item]
+Label=More members
+Name=MORE_MEMBERS
+Start=24
+Len=1
+ZeroFill=Yes
+
+[ValueSet]
+Label=More members
+Name=MORE_MEMBERS_VS1
+Value=1;Yes
+Value=2;No
+
+[Record]
+Label=Fertility
+Name=FERTILITY
+RecordTypeValue='F'
+MaxRecords=30
+RecordLen=22
+
+[Item]
+Label=Female name
+Name=FEMALE_NAME
+Start=3
+Len=20
+DataType=Alpha

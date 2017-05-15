@@ -1,0 +1,25 @@
+﻿[CSPro Application]
+Version=CSPro 7.0
+Label=ROSTER_PREFILL
+Name=ROSTER_PREFILL
+AppType=DataEntry
+OperatorID=No
+PartialSave=Yes
+CAPI=Yes
+CAPIFont1=-016 0000 0000 0000 0400 0000 0000 0000 0000 0000 0000 0000 0000 Arial
+CAPIFont2=-016 0000 0000 0000 0400 0000 0000 0000 0000 0000 0000 0000 0000 Arial
+CAPIFont1Color=0
+CAPIFont2Color=16711680
+CreateListing=No
+CreateLog=No
+ShowErrorMessageNumbers=No
+[AppCode]
+File=.\roster-prefill.ent.apc
+[Message]
+File=.\roster-prefill.ent.mgf
+[Help]
+File=.\roster-prefill.ent.qsf
+[Forms]
+File=.\roster-prefill.fmf
+[Dictionary Types]
+Dict-Type=.\roster-prefill.dcf,Input,.\roster-prefill.fmf

@@ -1,0 +1,38 @@
+﻿[CAPI QUESTIONS]
+Version=CSPro 7.0
+
+[LANGUAGES]
+ENG=English
+
+[QUESTION]
+Field=ROSTER_PREFILL_DICT.FEMALE_NAME
+Occurrences=1:30
+ENG={\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+ENG={\colortbl ;\red0\green0\blue0;}
+ENG={\*\generator Msftedit 5.41.21.2512;}\viewkind4\uc1\pard\cf1\i\fs24 The female names in the fertility roster were prefilled from the names in the household members roster.\i0\par
+ENG=}
+
+[QUESTION]
+Field=ROSTER_PREFILL_DICT.MORE_MEMBERS
+Occurrences=1:30
+ENG={\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+ENG={\colortbl ;\red0\green0\blue0;}
+ENG={\*\generator Msftedit 5.41.21.2512;}\viewkind4\uc1\pard\cf1\fs24 Are there any more household members?\par
+ENG=}
+
+[QUESTION]
+Field=ROSTER_PREFILL_DICT.NAME
+Occurrences=1:30
+ENG={\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+ENG={\colortbl ;\red0\green0\blue0;}
+ENG={\*\generator Msftedit 5.41.21.2512;}\viewkind4\uc1\pard\cf1\fs24 Enter household member's name.\par
+ENG=}
+
+[QUESTION]
+Field=ROSTER_PREFILL_DICT.SEX
+Occurrences=1:30
+ENG={\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+ENG={\colortbl ;\red0\green0\blue0;}
+ENG={\*\generator Msftedit 5.41.21.2512;}\viewkind4\uc1\pard\cf1\fs24 Enter household member's sex.\par
+ENG=}
+
