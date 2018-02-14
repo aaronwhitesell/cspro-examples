@@ -1,0 +1,17 @@
+﻿[Run Information]
+Version=CSPro 7.1
+AppType=Entry
+
+[DataEntryInit]
+Interactive=Ask
+
+[Files]
+Application=.\Menu.ent
+InputData=|NONE
+Paradata=.\Menu.cslog
+
+[ExternalFiles]
+STATELOOKUP_DICT=..\StateLookup\StateLookup.csdb|CSPRODB
+
+[Parameters]
+

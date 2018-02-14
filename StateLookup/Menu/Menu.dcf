@@ -1,0 +1,35 @@
+﻿[Dictionary]
+Version=CSPro 7.1
+Label=Menu
+Name=MENU_DICT
+RecordTypeStart=1
+RecordTypeLen=1
+Positions=Relative
+ZeroFill=Yes
+DecimalChar=Yes
+
+[Level]
+Label=Menu questionnaire
+Name=MENU_QUEST
+
+[IdItems]
+
+[Item]
+Label=State Id
+Name=STATE_ID
+Start=2
+Len=2
+ZeroFill=Yes
+
+[Record]
+Label=Menu record
+Name=MENU_REC
+RecordTypeValue='1'
+RecordLen=17
+
+[Item]
+Label=Display State
+Name=DISPLAY_STATE
+Start=4
+Len=14
+DataType=Alpha
