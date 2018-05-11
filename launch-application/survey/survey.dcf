@@ -1,0 +1,42 @@
+﻿[Dictionary]
+Version=CSPro 7.1
+Label=Survey
+Name=SURVEY_DICT
+RecordTypeStart=1
+RecordTypeLen=1
+Positions=Relative
+ZeroFill=Yes
+DecimalChar=Yes
+
+[Level]
+Label=Survey questionnaire
+Name=SURVEY_QUEST
+
+[IdItems]
+
+[Item]
+Label=Region
+Name=S_REGION
+Start=2
+Len=1
+ZeroFill=Yes
+
+[Item]
+Label=District
+Name=S_DISTRICT
+Start=3
+Len=2
+ZeroFill=Yes
+
+[Record]
+Label=Survey record
+Name=SURVEY_REC
+RecordTypeValue='1'
+RecordLen=5
+
+[Item]
+Label=Field
+Name=S_FIELD
+Start=5
+Len=1
+ZeroFill=Yes

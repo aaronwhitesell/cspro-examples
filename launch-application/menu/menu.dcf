@@ -1,0 +1,40 @@
+﻿[Dictionary]
+Version=CSPro 7.1
+Label=Menu
+Name=MENU_DICT
+RecordTypeStart=1
+RecordTypeLen=1
+Positions=Relative
+ZeroFill=Yes
+DecimalChar=Yes
+
+[Level]
+Label=Menu questionnaire
+Name=MENU_QUEST
+
+[IdItems]
+
+[Item]
+Label=Menu identification
+Name=MENU_ID
+Start=2
+Len=1
+ZeroFill=Yes
+
+[Record]
+Label=Menu record
+Name=MENU_REC
+RecordTypeValue='1'
+RecordLen=3
+
+[Item]
+Label=Menu
+Name=MENU
+Start=3
+Len=1
+ZeroFill=Yes
+
+[ValueSet]
+Label=Menu
+Name=MENU_VS1
+Value=1;Launch app

@@ -1,0 +1,72 @@
+﻿[FormFile]
+Version=CSPro 7.1
+Name=SURVEY_FF
+Label=Survey
+DefaultTextFont=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
+FieldEntryFont=0018 0000 0000 0000 0600 0000 0000 0000 0000 0000 0000 0000 0000 Courier New
+Type=SystemControlled
+  
+[Dictionaries]
+File=.\Survey.dcf
+  
+[Form]
+Name=FORM000
+Label=Survey Form
+Level=1
+Size=321,160
+  
+Item=S_REGION
+Item=S_DISTRICT
+Item=S_FIELD
+  
+[EndForm]
+  
+[Level]
+Name=SURVEY_QUEST
+Label=Survey questionnaire
+  
+[Group]
+Required=Yes
+Name=SURVEY_FORM
+Label=Survey Form
+Form=1
+LogicControl=No
+Max=1
+  
+[Field]
+Name=S_REGION
+Position=117,27,132,47
+Item=S_REGION,SURVEY_DICT
+FieldLabelType=DictionaryLabel
+Form=1
+  
+[Text]
+Position=50,30,95,46
+Text=Region
+ 
+  
+[Field]
+Name=S_DISTRICT
+Position=117,69,146,89
+Item=S_DISTRICT,SURVEY_DICT
+FieldLabelType=DictionaryLabel
+Form=1
+  
+[Text]
+Position=50,72,93,88
+Text=District
+ 
+  
+[Field]
+Name=S_FIELD
+Position=117,115,132,135
+Item=S_FIELD,SURVEY_DICT
+FieldLabelType=DictionaryLabel
+Form=1
+  
+[Text]
+Position=50,118,82,134
+Text=Field
+ 
+[EndGroup]
+  

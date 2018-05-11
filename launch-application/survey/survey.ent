@@ -1,0 +1,27 @@
+﻿[CSPro Application]
+Version=CSPro 7.1
+Label=SURVEY
+Name=SURVEY
+AppType=DataEntry
+OperatorID=No
+PartialSave=Yes
+CAPI=Yes
+CAPIFont1=-016 0000 0000 0000 0400 0000 0000 0000 0000 0000 0000 0000 0000 Arial
+CAPIFont2=-016 0000 0000 0000 0400 0000 0000 0000 0000 0000 0000 0000 0000 Arial
+CAPIFont1Color=0
+CAPIFont2Color=16711680
+CreateListing=No
+CreateLog=No
+ShowErrorMessageNumbers=No
+ParadataCollection=AllEvents
+ParadataDeviceStateMinutes=5
+[AppCode]
+File=.\survey.ent.apc
+[Message]
+File=.\survey.ent.mgf
+[Help]
+File=.\survey.ent.qsf
+[Forms]
+File=.\survey.fmf
+[Dictionary Types]
+Dict-Type=.\survey.dcf,Input,.\survey.fmf

@@ -1,0 +1,31 @@
+{
+  "fileType": "Application Deployment Specification",
+  "version": "7.1",
+  "name": "Launch Application",
+  "description": "Menu application that launches survey application with prefilled data",
+  "files": [
+    {
+      "path": ".\\menu\\menu.ent"
+    },
+    {
+      "path": ".\\menu\\menu.pff"
+    },
+    {
+      "path": ".\\survey\\survey.ent"
+    }
+  ],
+  "dictionaries": [
+    {
+      "path": ".\\menu\\menu.dcf"
+    },
+    {
+      "path": ".\\survey\\survey.dcf"
+    }
+  ],
+  "deployment": {
+    "type": "LocalFolder",
+    "cswebUrl": "http:\/\/www.aaronwhitesell.com\/csweb\/api",
+    "ftpUrl": "ftp:\/\/",
+    "localFolderPath": ".\\deploy-launch-application"
+  }
+}
