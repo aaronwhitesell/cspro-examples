@@ -1,0 +1,15 @@
+﻿[Run Information]
+Version=CSPro 7.1
+AppType=Entry
+
+[DataEntryInit]
+Interactive=Ask
+
+[Files]
+Application=.\recursive-delete.ent
+InputData=|NONE
+Paradata=.\recursive-delete.cslog
+
+
+[Parameters]
+

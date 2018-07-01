@@ -1,0 +1,78 @@
+﻿[FormFile]
+Version=CSPro 7.1
+Name=RECURSIVE_DELETE_FF
+Label=recursive-delete
+DefaultTextFont=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
+FieldEntryFont=0018 0000 0000 0000 0600 0000 0000 0000 0000 0000 0000 0000 0000 Courier New
+Type=SystemControlled
+  
+[Dictionaries]
+File=.\recursive-delete.dcf
+  
+[Form]
+Name=FORM000
+Label=(Id Items)
+Level=1
+Size=1515,300
+  
+Item=RECURSIVE_DELETE_ID
+  
+[EndForm]
+  
+[Form]
+Name=FORM001
+Label=recursive-delete record
+Level=1
+Size=1515,300
+  
+Item=MENU
+  
+[EndForm]
+  
+[Level]
+Name=RECURSIVE_DELETE_QUEST
+Label=recursive-delete questionnaire
+  
+[Group]
+Required=Yes
+Name=IDS0_FORM
+Label=(Id Items)
+Form=1
+LogicControl=No
+Max=1
+  
+[Field]
+Name=RECURSIVE_DELETE_ID
+Position=261,27,276,47
+Item=RECURSIVE_DELETE_ID,RECURSIVE_DELETE_DICT
+FieldLabelType=DictionaryLabel
+Form=1
+  
+[Text]
+Position=50,30,239,46
+Text=recursive-delete identification
+ 
+[EndGroup]
+  
+[Group]
+Required=Yes
+Name=RECURSIVE_DELETE_REC_FORM
+Label=recursive-delete record
+Form=2
+LogicControl=No
+Max=1
+  
+[Field]
+Name=MENU
+Position=108,27,123,47
+Item=MENU,RECURSIVE_DELETE_DICT
+FieldLabelType=DictionaryLabel
+DataCaptureType=DropDown
+Form=2
+  
+[Text]
+Position=50,30,86,46
+Text=menu
+ 
+[EndGroup]
+  

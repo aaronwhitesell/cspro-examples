@@ -1,7 +1,3 @@
-# Roster prefill
-* Use the household members roster to prefill the fertility roster
-# State lookup
-* Use the state id to look up the state name
 # Launch application
 * Use a menu application to launch a survey application with prefilled data
 ## Tips for creating a menu application
@@ -13,4 +9,11 @@
 * Data entry options
     * Turn off "Show case tree" since the case tree is not useful in a menu
     * Turn on "Automatically advance on selection," so interviewers do not have to tap next
+# Recursive delete
+* Recursively delete a directory
+* Requires CSPro 7.1.2
+# Roster prefill
+* Use the household members roster to prefill the fertility roster
+# State lookup
+* Use the state id to look up the state name
 

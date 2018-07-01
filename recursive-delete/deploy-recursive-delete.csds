@@ -1,0 +1,37 @@
+{
+  "fileType": "Application Deployment Specification",
+  "version": "7.1",
+  "name": "Recursive Delete",
+  "description": "Recursively delete a directory",
+  "files": [
+    {
+      "path": ".\\recursive-delete.ent"
+    },
+    {
+      "path": ".\\recursive-delete.pff"
+    },
+    {
+      "path": ".\\dir-01\\dir-02\\file-03.txt"
+    },
+    {
+      "path": ".\\dir-01\\dir-02\\file-04.txt"
+    },
+    {
+      "path": ".\\dir-01\\file-01.txt"
+    },
+    {
+      "path": ".\\dir-01\\file-02.txt"
+    }
+  ],
+  "dictionaries": [
+    {
+      "path": ".\\recursive-delete.dcf"
+    }
+  ],
+  "deployment": {
+    "type": "LocalFolder",
+    "cswebUrl": "http:\/\/",
+    "ftpUrl": "ftp:\/\/",
+    "localFolderPath": ".\\deploy-recursive-delete"
+  }
+}

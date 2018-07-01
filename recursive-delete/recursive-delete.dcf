@@ -1,0 +1,40 @@
+﻿[Dictionary]
+Version=CSPro 7.1
+Label=recursive-delete
+Name=RECURSIVE_DELETE_DICT
+RecordTypeStart=1
+RecordTypeLen=1
+Positions=Relative
+ZeroFill=Yes
+DecimalChar=Yes
+
+[Level]
+Label=recursive-delete questionnaire
+Name=RECURSIVE_DELETE_QUEST
+
+[IdItems]
+
+[Item]
+Label=recursive-delete identification
+Name=RECURSIVE_DELETE_ID
+Start=2
+Len=1
+ZeroFill=Yes
+
+[Record]
+Label=recursive-delete record
+Name=RECURSIVE_DELETE_REC
+RecordTypeValue='1'
+RecordLen=3
+
+[Item]
+Label=menu
+Name=MENU
+Start=3
+Len=1
+ZeroFill=Yes
+
+[ValueSet]
+Label=menu
+Name=MENU_VS1
+Value=1;Recursive delete
