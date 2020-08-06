@@ -1,5 +1,5 @@
 ﻿[CSPro Application]
-Version=CSPro 7.1
+Version=CSPro 7.4
 Label=SURVEY
 Name=SURVEY
 AppType=DataEntry
@@ -14,6 +14,7 @@ CreateListing=No
 CreateLog=No
 ShowErrorMessageNumbers=No
 ParadataCollection=AllEvents
+ParadataRecordInitialPropertyValues=Yes
 ParadataDeviceStateMinutes=5
 [AppCode]
 File=.\survey.ent.apc

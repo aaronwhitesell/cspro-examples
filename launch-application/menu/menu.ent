@@ -1,5 +1,5 @@
 ﻿[CSPro Application]
-Version=CSPro 7.1
+Version=CSPro 7.4
 Label=MENU
 Name=MENU
 AppType=DataEntry
@@ -15,6 +15,7 @@ CreateLog=No
 AutoAdvanceOnSelection=Yes
 ShowErrorMessageNumbers=No
 ParadataCollection=AllEvents
+ParadataRecordInitialPropertyValues=Yes
 ParadataDeviceStateMinutes=5
 [External Dictionaries]
 File=..\survey\survey.dcf

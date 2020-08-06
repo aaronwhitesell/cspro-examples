@@ -1,4 +1,6 @@
 *.csdb
+*.err
 *.pen
 *.pff
 
+launch-application/deploy-launch-application/

@@ -1,6 +1,6 @@
 {
   "fileType": "Application Deployment Specification",
-  "version": "7.1",
+  "version": "7.4",
   "name": "Launch Application",
   "description": "Menu application that launches survey application with prefilled data",
   "files": [
@@ -12,6 +12,9 @@
     },
     {
       "path": ".\\survey\\survey.ent"
+    },
+    {
+      "path": ".\\survey\\survey.pff"
     }
   ],
   "dictionaries": [

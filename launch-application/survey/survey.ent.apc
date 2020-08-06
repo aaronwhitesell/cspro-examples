@@ -9,17 +9,15 @@ PROC S_REGION
 
 preproc
 
-	S_REGION = tonumber(sysparm("Region"));
 	noinput;
+
 	
 PROC S_DISTRICT
 
 preproc
 
-	S_DISTRICT = tonumber(sysparm("District"));  
 	noinput;
 
-	
-	
+
 PROC S_FIELD
 

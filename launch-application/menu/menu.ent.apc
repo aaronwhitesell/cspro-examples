@@ -5,34 +5,13 @@ file pffFile;
 
 function LaunchApp(string pffFilename)
 
-	setfile(pffFile,pffFilename,create);
-
-	filewrite(pffFile,"[Run Information]");
-	filewrite(pffFile,"Version=CSPro 7.0");
-	filewrite(pffFile,"AppType=Entry");
-
-	filewrite(pffFile,"[DataEntryInit]");
-	filewrite(pffFile, "StartMode=Add;%v%v",S_REGION,S_DISTRICT); // Add case (if does not exist) or modify case (if exists)
-	filewrite(pffFile, "ShowInApplicationListing=Never"); // Do not display application name in mobile Entry Application screen
-	filewrite(pffFile, "Lock=CaseListing"); // On mobile do not display Case Listing screen
-
-	filewrite(pffFile,"[Files]");
-	filewrite(pffFile,"Application=%s","./survey.ent");
-	filewrite(pffFile,"InputData=%s","./survey.csdb|CSPRODB");
-	
-	filewrite(pffFile,"[Parameters]");
-	filewrite(pffFile,"Region=%d",S_REGION);
-	filewrite(pffFile,"District=%d",S_DISTRICT);
-	filewrite(pffFile,"OnExit=../menu/menu.pff"); // Open menu after survey closes
-
-	close(pffFile);
-
-	execpff(filename(pffFile),stop);
-
+	pff survey_pff;
+    survey_pff.load(pffFilename);
+    survey_pff.setproperty("Key", maketext("%v%v", S_REGION, S_DISTRICT));
+    survey_pff.exec();
+		 
 end;
 
-
-end;
 
 PROC MENU_FF
 

@@ -1,22 +1,18 @@
 ﻿[Run Information]
-Version=CSPro 7.1
+Version=CSPro 7.4
 AppType=Entry
 Description=Launch Application
 
 [DataEntryInit]
 StartMode=Add
 Lock=CaseListing
-Interactive=Ask
 
 [Files]
 Application=.\menu.ent
-InputData=|NONE
+InputData=|type=None
 
 [ExternalFiles]
-SURVEY_DICT=..\survey\survey.csdb|CSPRODB
+SURVEY_DICT=..\survey\survey.csdb
 
 [UserFiles]
 PFFFILE=
-
-[Parameters]
-
